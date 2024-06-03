@@ -1,7 +1,7 @@
 <?php
 require 'partials/header.php';
 
-//if input is there
+//if input is available 
 if((isset($_GET['search'])) && isset($_GET['submit'])){
     $search=filter_var($_GET['search'], FILTER_SANITIZE_FULL_SPECIAL_CHARS);
     $query="SELECT * FROM posts WHERE title like '%$search%' ORDER BY date_time DESC";
@@ -35,6 +35,7 @@ if((isset($_GET['search'])) && isset($_GET['submit'])){
         $author=mysqli_fetch_assoc($author_result);
                     
         ?>
+    //for categories
             <a href="category-posts.php?id=<?=$post['category_id']?>" class="category__button"><?=$category['title']?></a>
             <h3 class="post__title"><a href="post.php?id=<?=$post["id"]?>" >
                 <?=$post['title']?>
