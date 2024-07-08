@@ -16,6 +16,9 @@
 
 <img width="1440" alt="image" src="https://github.com/sneha-at-hub/ThoughtCanva-Blog-Website/assets/127836464/135484aa-dfce-451c-9a24-525c760dcd27">
 
+<img width="489" alt="image" src="https://github.com/sneha-at-hub/ThoughtCanva-Blog-Website/assets/127836464/ec455c46-5621-410a-b1e2-236e36145081">
+
+
 
 
 
