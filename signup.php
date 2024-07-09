@@ -25,7 +25,7 @@ unset($_SESSION['signup-data']);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thought Canva</title>
     <!-- CUSTOM STYLESHEET -->
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/nai.css">
     <!-- ICONSCOUT CDN -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <!-- GOOGLE FONT(MONTSERATE) -->

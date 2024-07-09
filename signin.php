@@ -14,7 +14,8 @@ unset($_SESSION['signin-data']);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thought Canva</title>
     <!-- CUSTOM STYLESHEET -->
-    <link rel="stylesheet" href="./css/style.css">
+     <link rel="stylesheet" href="./css/nai.css">
+
     <!-- ICONSCOUT CDN -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <!-- GOOGLE FONT(MONTSERATE) -->
@@ -46,7 +47,7 @@ unset($_SESSION['signin-data']);
         <form action="<?= ROOT_URL ?>signin-logic.php" method="POST">
             <input type="text" name="username_email" value='<?= $username_email ?>' placeholder="Username or Email">
             <input type="password" name="password" value='<?= $password ?>' placeholder=" Password">
-            <button type="submit" class="btn" name="submit">Sign in</button>
+            <button type="submit" class="btn" style="background-color:black; color:white;" name="submit">Sign in</button>
             <small>Don't have an account? <a href="signup.php">Sign up</a></small>
         </form>
     </div>

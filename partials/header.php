@@ -19,7 +19,7 @@ if(isset($_SESSION['user-id'])) {
     <title>Blog Website</title>
 
     <!-- CUSTOM STYLESHEET -->
-    <link rel="stylesheet" href="<?= ROOT_URL ?>css/style.css">
+    <link rel="stylesheet" href="../css/nai.css">
     <!-- ICONSCOUT CDN -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
     <!-- GOOGLE FONT(MONTSERATE) -->

@@ -77,9 +77,10 @@ $posts=mysqli_query($connection,$query);
           <h2 class="post__title"><a href="<?= ROOT_URL ?>post.php?id=<?= $post['id'] ?>"><?= $post['title'] ?></a></h2>
           <a href="<?= ROOT_URL ?>post.php?id=<?= $post['id'] ?>">
 
-            <p class="post__body" style="min-height: 100px;">
-              <?= substr($post['body'], 0, 150) ?>...
-            </p>
+          <p class="post__body" style="min-height: 100px; color: black;">
+          <?= substr($post['body'], 0, 150) ?>...
+          </p>
+
           </a>
 
           <div class="post__author">
