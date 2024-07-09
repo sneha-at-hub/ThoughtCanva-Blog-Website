@@ -19,7 +19,27 @@ if(isset($_SESSION['user-id'])) {
     <title>Blog Website</title>
 
     <!-- CUSTOM STYLESHEET -->
-    <link rel="stylesheet" href="../css/nai.css">
+    <script>
+        function loadCSS() {
+            var link = document.createElement("link");
+            link.rel = "stylesheet";
+            link.href = "./css/nai.css";
+
+            link.onload = function() {
+                console.log("CSS file loaded successfully.");
+            };
+
+            link.onerror = function() {
+                console.log("CSS file not found, loading fallback.");
+                link.href = "../css/nai.css";
+                document.head.appendChild(link);
+            };
+
+            document.head.appendChild(link);
+        }
+
+        window.onload = loadCSS;
+    </script>
     <!-- ICONSCOUT CDN -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
     <!-- GOOGLE FONT(MONTSERATE) -->
