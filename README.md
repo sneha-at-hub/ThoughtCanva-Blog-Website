@@ -1,3 +1,5 @@
+<img width="707" alt="image" src="https://github.com/sneha-at-hub/ThoughtCanva-Blog-Website/assets/127836464/2a82af44-732b-4871-85da-0d6f9d6317c6">
+
 <img width="1440" alt="image" src="https://github.com/sneha-at-hub/ThoughtCanva-Blog-Website/assets/127836464/3e3e6972-7345-4b23-a47c-99a84048ef02">
 
 <img width="1440" alt="image" src="https://github.com/sneha-at-hub/ThoughtCanva-Blog-Website/assets/127836464/b66906fb-b8fb-433e-b0ee-6e708ff21815">
